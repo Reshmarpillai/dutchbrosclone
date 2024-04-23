@@ -1,0 +1,239 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+a {
+  font-family: sans-serif;
+  color: #005f98;
+  font-size: 18px;
+  text-decoration: none;
+}
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+li {
+  list-style: none;
+  float: left;
+  text-decoration: none;
+  width: 5em;
+  margin-right: 5px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 4rem;
+  background-color: white;
+  justify-content: space-between;
+  margin: 0;
+  opacity: 0.94;
+
+  position: fixed;
+  top: 0;
+}
+#logo {
+  width: 11rem;
+  height: 3rem;
+  padding-top: 1rem;
+  padding-right: 15rem;
+}
+.nav-child-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-child-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  text-decoration: none;
+  padding-right: 4rem;
+}
+.first-container {
+  width: 100%;
+  height: 50rem;
+  background-image: url(./images/ductpic1.png);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 60px;
+}
+p {
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 24px;
+}
+.blue-button {
+  align-content: center;
+  background-color: #005f98;
+  border: none;
+  border-radius: 5rem;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  width: 15rem;
+  height: 5rem;
+  left: 50%;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.second-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 50rem;
+  background-color: aliceblue;
+  align-items: center;
+  color: #005f98;
+}
+.cup-image {
+  display: flex;
+  flex-direction: row;
+}
+.cup-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 50px;
+  padding-right: 0rem;
+}
+.coffe-cup-image {
+  width: 25rem;
+}
+
+.third-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 50rem;
+  background-color: #005f98;
+  align-items: center;
+}
+.home {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  padding-left: 1rem;
+  padding-right: 6rem;
+}
+.dutch-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 1rem;
+  padding-right: 6rem;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 15rem;
+}
+
+.yellow-button {
+  align-content: center;
+  background-color: #fdea3f;
+  border: none;
+  border-radius: 2rem;
+  color: #005f98;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin: 4px 2px;
+  width: 15rem;
+  height: 5rem;
+  left: 50%;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  align-items: center;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 7rem;
+  margin: 30px auto;
+}
+.child {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.connected {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #005f98;
+  border: 1px;
+  border-radius: 5px;
+  width: 30rem;
+}
+.email {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+.download {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  align-self: center;
+  max-width: 396px;
+  text-align: center;
+  width: 100%;
+  gap: 10px;
+}
+.download-child {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.service {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.social-media-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
